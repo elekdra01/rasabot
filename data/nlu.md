@@ -29,6 +29,7 @@
 - need to go some [clinic](facility_type) in [kerala](location)
 - need to fix an appoinment in [hospital nhcs](facility_type)
 - i have a bit [fever](disease_type) give me some [medicine](drug)  
+- i have [corona](disease_type) 
 
 ## intent:affirm
 - yes
