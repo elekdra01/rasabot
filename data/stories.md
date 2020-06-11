@@ -19,6 +19,10 @@
 * thanks
  - utter_goodbye
 
+## story_thankyou
+* thankyou
+    - utter_noworries
+    
 ## happy path
 * greet
   - utter_greet

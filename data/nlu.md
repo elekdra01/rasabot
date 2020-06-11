@@ -5,12 +5,26 @@
 - good morning
 - good evening
 - hey there
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
 
 ## intent:goodbye
 - bye
 - goodbye
 - see you around
 - see you later
+- bye for now
+- catch you later
+- gotta go
+- See you
+- goodnight
+- have a nice day
+- i'm off
+- see you later alligator
+- we'll speak soon
 
 ## intent:inform
 - [kerala](location)
@@ -28,6 +42,8 @@
 - I need to consult my [physician](facility_type)
 - need to go some [clinic](facility_type) in[kerala](location)
 - need to fix an appoinment in [hospital nhcs](facility_type)
+- find me a nearby [hospital](facility_type)
+- show me [hospitals](facility_type)
 
 ## intent:affirm
 - yes
@@ -36,6 +52,12 @@
 - that sounds good
 - correct
 - go on
+- yes yes yes
+- definitely
+- yeah
+- si
+- ok
+- okay
 
 ## intent:deny
 - no
@@ -44,6 +66,10 @@
 - don't like that
 - no way
 - not really
+- uh no
+- noope
+- do you have something else
+- no this does not work for me
 
 ## intent:mood_great
 - perfect
@@ -66,6 +92,16 @@
 - not very good
 - extremely sad
 - so sad
+
+## intent:thankyou
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
 
 ## intent:bot_challenge
 - are you a bot?
