@@ -26,10 +26,8 @@
 - show me the [health agencies](facility_type)
 - i need a home [medical shop](facility_type)
 - I need to consult my [physician](facility_type)
-- need to go some [clinic](facility_type) in [kerala](location)
+- need to go some [clinic](facility_type) in[kerala](location)
 - need to fix an appoinment in [hospital nhcs](facility_type)
-- i have a bit [fever](disease_type) give me some [medicine](drug)  
-- i have [corona](disease_type) 
 
 ## intent:affirm
 - yes

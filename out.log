@@ -1,0 +1,42 @@
+2020-06-07 15:16:12,451 [DEBUG]  Available web server routes: 
+/conversations/<conversation_id>/messages          POST                           add_message
+/conversations/<conversation_id>/tracker/events    POST                           append_events
+/webhooks/rasa                                     GET                            custom_webhook_RasaChatInput.health
+/webhooks/rasa/webhook                             POST                           custom_webhook_RasaChatInput.receive
+/webhooks/rest                                     GET                            custom_webhook_RestInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_RestInput.receive
+/model/test/intents                                POST                           evaluate_intents
+/model/test/stories                                POST                           evaluate_stories
+/conversations/<conversation_id>/execute           POST                           execute_action
+/domain                                            GET                            get_domain
+/                                                  GET                            hello
+/model                                             PUT                            load_model
+/model/parse                                       POST                           parse
+/conversations/<conversation_id>/predict           POST                           predict
+/conversations/<conversation_id>/tracker/events    PUT                            replace_events
+/conversations/<conversation_id>/story             GET                            retrieve_story
+/conversations/<conversation_id>/tracker           GET                            retrieve_tracker
+/status                                            GET                            status
+/model/predict                                     POST                           tracker_predict
+/model/train                                       POST                           train
+/conversations/<conversation_id>/trigger_intent    POST                           trigger_intent
+/model                                             DELETE                         unload_model
+/version                                           GET                            version
+2020-06-07 15:16:12,451 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-06-07 15:16:12,451 [DEBUG]  Using the default number of Sanic workers (1).
+2020-06-07 15:16:12,451 [INFO ]  Enabling coroutine debugging. Loop id 2031494619336.
+2020-06-07 15:16:12,898 [DEBUG]  Extracted model to 'C:\Users\User\AppData\Local\Temp\tmp9uu3f401'.
+2020-06-07 15:16:13,703 [DEBUG]  Loading the model ...
+2020-06-07 15:16:15,828 [DEBUG]  Finished loading the model.
+2020-06-07 15:16:15,828 [DEBUG]  Building tensorflow prediction graph...
+2020-06-07 15:16:23,393 [DEBUG]  Finished building tensorflow prediction graph.
+2020-06-07 15:16:23,393 [DEBUG]  Failed to load model for 'ResponseSelector'. Maybe you did not provide enough training data and no model was trained or the path 'C:\Users\User\AppData\Local\Temp\tmp9uu3f401\nlu' doesn't exist?
+2020-06-07 15:16:23,409 [DEBUG]  Connected to InMemoryTrackerStore.
+2020-06-07 15:16:23,409 [DEBUG]  Connected to lock store 'InMemoryLockStore'.
+2020-06-07 15:16:23,865 [DEBUG]  Extracted model to 'C:\Users\User\AppData\Local\Temp\tmp_w__mbmd'.
+2020-06-07 15:16:23,873 [DEBUG]  Using yaml library: c:\users\user\anaconda3\envs\rasabot\lib\site-packages\ruamel\yaml\__init__.py
+2020-06-07 15:16:23,937 [DEBUG]  Loading the model ...
+2020-06-07 15:16:24,419 [DEBUG]  Finished loading the model.
+2020-06-07 15:16:24,419 [DEBUG]  Building tensorflow prediction graph...
+2020-06-07 15:16:25,707 [DEBUG]  Finished building tensorflow prediction graph.
+2020-06-07 15:16:25,715 [DEBUG]  Instantiated NLG to 'TemplatedNaturalLanguageGenerator'.

@@ -6,8 +6,43 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - inform
+  - search_provider
+  - thanks
 
+entities:
+  - location
+  - facility_type
+
+actions:
+  - utter_greet
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_goodbye
+  - utter_how_can_i_help
+  - utter_ask_location
+  - action_facility_search
+
+slots:
+  location:
+   type: text
+   auto_fill: False
+  facility_type:
+    type: text
+  address:
+    type: unfeaturized
+
+   
 responses:
+  utter_how_can_i_help:
+  - text: "Hello i am medicare locator .I can help you to find the nearest hospital.How can i hep?"
+  - text: "hey i am medo do you need any help today?"
+
+  utter_ask_location:
+  - text: "Can you provide your location please?"
+  - text: "to find the nearest {facility_type} I need your address"
+  
   utter_greet:
   - text: "Hey! How are you?"
 
